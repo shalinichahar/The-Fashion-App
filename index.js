@@ -35,6 +35,41 @@ $(document).ready(function(){
    marquee.style.animationDuration = (contentWidth / 100) * 3 + 's';
 
   //Counter
+
+  document.addEventListener("DOMContentLoaded", function () {
+    startCounting();
+  });
+
+  function startCounting() {
+    const experienceCounter = document.getElementById('experienceCounter');
+    const projectCounter = document.getElementById('projectCounter');
+    const designerCounter = document.getElementById('designerCounter');
+    const technologyParteners = document.getElementById('partenerCounter')
+
+    let experience = 0;
+    let projects = 0;
+    let designers = 0;
+    let parteners =0;          
+    
+    const duration = 5000; // 5 seconds
+    const startTime = Date.now();
+
+    function updateCounters() {
+      const elapsed = Date.now() - startTime;
+      const progress = elapsed / duration;
+
+      experienceCounter.textContent = Math.floor(progress * 35);
+      projectCounter.textContent = Math.floor(progress * 9356);
+      designerCounter.textContent = Math.floor(progress * 368);
+      technologyParteners.textContent = Math.floor(progress * 85);
+
+      if (elapsed < duration) {
+        requestAnimationFrame(updateCounters);
+      }
+    }
+
+    updateCounters();
+  }
   
   //testimonial
   $(document).ready(function(){

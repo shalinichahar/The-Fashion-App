@@ -232,6 +232,16 @@
       overflow: hidden;
       margin-top: 100px;
     }
+
+    .about-bg-img{
+      background-image: url('https://plus.unsplash.com/premium_photo-1682146042060-3617a8f344c0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmFzaGlvbiUyMGRlc2lnbmluZyUyMGltYWdlJTIwaG9yaXpvbnRhbHxlbnwwfHwwfHx8MA%3D%3D');
+      background-size: cover;
+      background-position: center;
+      height: 80vh; 
+      position: relative;
+      overflow: hidden;
+      margin-top: 90px;
+    }
     .overlay-container {
       position: absolute;
       bottom: 0;
@@ -435,3 +445,50 @@ font-size: 3.2rem;
       margin-bottom: 20px;
   }
 }
+
+
+/* About Us */
+.line {
+  width: 100%;
+  height: 6rem;
+  overflow: hidden;
+  border: none;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+/* lineup class and keyframes */
+.lineUp {
+  animation: 2s anim-lineUp ease-out infinite;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 64px;
+  font-weight: 700px;
+  text-align: center;
+  color: #fff;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.dates{
+  justify-content: center;
+  background-color: antiquewhite;
+  width: 200px;
+  max-height: 200px;
+}
+
+
