@@ -1,0 +1,348 @@
+
+    /* Custom CSS styles can be added here */
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+
+    /* Navbar styles */
+    .navbar {
+      background-color: rgba(255, 255, 255, 0.8); /* Transparent white background */
+      background-color: #f8f9fa;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar a {
+      color: black !important; /* Black text color */
+    }
+
+    .navbar a:hover {
+      color: #ffd700 !important; /* Goldenish text color on hover */
+    }
+
+    .navbar-brand {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      color: #ffd700; /* Goldenish text color for the brand */
+    }
+
+    .navbar-toggler-icon {
+      background-color: black; /* Set hamburger icon color to black */
+    }
+
+    /* Header styles */
+    .header {
+      padding: 100px 0;
+    }
+
+    .header h1 {
+      font-size: 3em;
+      color: #ffd700; /* Goldenish text color */
+    }
+
+    .header p {
+      font-size: 1.5em;
+      color: #ffd700; /* Goldenish text color */
+    }
+
+    /* Carousel styles */
+    .carousel-item img {
+      width: 100%;
+      height: 100vh; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+
+    /* Content box styles */
+    .content-box {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      position: relative;
+      z-index: 1;
+      margin-top: -80px; /* Adjust margin-top to overlap with the header */
+    }
+
+    /* Customers section styles */
+    .customers-section {
+      background-color: #f8f9fa;
+      padding: 50px 0;
+    }
+
+    .customer-icons {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .customer-icons img {
+      max-width: 100%;
+      max-height: 80px;
+      margin: 0 auto;
+    }
+
+    /* Footer styles */
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      /* position: fixed; */
+      bottom: 0;
+      width: 100%;
+    }
+  
+
+    .logo-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .company-logo {
+      margin: 0 10px;
+    }
+
+    .company-logo img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .video-container {
+      position: relative;
+      overflow: hidden;
+      padding-top: 56.25%; /* 16:9 aspect ratio (height: width) */
+    }
+
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .play-button {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      cursor: pointer;
+    }
+
+    .faq-content {
+      display: none;
+      border-bottom: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .faq-content p {
+      text-align: left;
+    }
+    .faq-heading {
+      cursor: pointer;
+    }
+
+    .faq-heading{
+      text-align: left;
+      /* border-radius:15px; */
+      border-bottom: 1px solid black;
+      padding: 10px;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+    }
+
+    .testimonial-marquee {
+      overflow: hidden;
+      white-space: nowrap;
+      margin: 20px 0;
+    }
+
+    .testimonial {
+      display: inline-block;
+      margin-right: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      text-align: left;
+      max-width: 300px;
+    }
+
+    .testimonial img {
+      max-width: 100%;
+      border-radius: 50%;
+      margin-bottom: 10px;
+    }
+
+
+    .testimonial img {
+      width: 100%;
+      height: 10%;
+      /* border-radius: 50%; */
+      /* margin-bottom: 10px; */
+    }
+    .testimonial p {
+      text-align: left;
+    }
+
+    .rectangle-btn {
+      margin: auto;
+      text-align: center;
+      width: 150px; 
+      height: 50px; 
+      padding: 0px;
+    }
+    .rectangle-btn-last{
+      margin: 15px;
+      text-align: center;
+      width: 150px; 
+      height: 50px; 
+      padding: 0px;
+    }
+
+    .overlapping-image-container {
+      position: relative;
+      height: 100%;
+      
+    }
+    .overlapping-image {
+      position: absolute;
+      top: -50%;
+      left: 50%;
+      transform: translate(-50%, 0);
+      width: 100%;
+      z-index: -1; /* Ensure the image is positioned behind the content */
+    }
+
+    .custom-row {
+      height: 300px; /* Adjust the height of the row */
+    }    
+
+    .bg-img{
+      background-image: url('https://media.istockphoto.com/id/1347626309/photo/latina-female-using-desktop-computer-with-clothing-online-web-store-to-choose-and-buy-clothes.jpg?s=1024x1024&w=is&k=20&c=Ow6Tnb6XkEARWwdxbXDe2SpkodV5ctxyJsQw7pzASZU=');
+      background-size: cover;
+      background-position: center;
+      height: 100vh; 
+      position: relative;
+      overflow: hidden;
+      margin-top: 100px;
+    }
+    .overlay-container {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
+      text-align: center;
+      padding: 0px 20px;
+  }
+
+  .overlay-images {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .overlay-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .col-lg-4{
+  
+   margin-right: 5px;
+   padding-right: 5px;
+
+   text-align: end;
+   padding-right: 20px;
+  }
+
+a{
+  text-decoration: none;
+  color: #ded9d9;
+  cursor: pointer;
+  list-style: none;
+  color: rgb(183, 181, 181);
+}
+a:hover{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+  font-size: small;
+ 
+}
+
+h1,h2,h3,h4,h5{
+  font-family:'Times New Roman', Times, serif;
+}
+
+.counter {
+
+  font-size: 2em;
+
+  justify-items: flex;
+  display: inline-flex;
+}
+
+.number{
+  margin: 57px;
+  font-size: xxx-large;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 5px;
+}
+
+em{
+  padding-left: 0;
+  margin-left: 0;
+  font-size: xxx-large;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.centernumber{
+  margin-right: 5px;
+}
+
+h2{
+  font-size: 35px;
+}
+
+p{
+  font-size: 12px;
+  margin: 25px 0;
+}
+
+#email{
+  border-style: solid;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 0px 0px 0px 0px;
+  min-height: 47px;
+  padding: 6px 40px;
+  margin-bottom:20px;
+}
+
+.first{
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.grid-four,.grid-six{
+  position: relative;
+  top:-250px
+}
+.grid-five{
+  margin-top: 45px;
+
+}
+
+.img-over{
+  margin-top: 20px;
+  position: relative;
+  top:-180px;
+  justify-content: center;
+}
