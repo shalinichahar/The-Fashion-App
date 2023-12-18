@@ -50,7 +50,7 @@ $(document).ready(function(){
     let projects = 0;
     let designers = 0;
     let parteners =0;          
-    
+    0
     const duration = 5000; // 5 seconds
     const startTime = Date.now();
 
